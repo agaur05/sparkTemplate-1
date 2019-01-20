@@ -22,7 +22,7 @@ object Dataframe01 {
 
     pDF.join(pcodeDF, "pcode").show()
 
-
+    spark.stop()
   }
 
 }
